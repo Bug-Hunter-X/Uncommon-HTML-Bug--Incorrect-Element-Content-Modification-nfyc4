@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text will be replaced.
+  </div>
+
+  <script>
+    // Correct Way to access and modify the content of an element
+    let div = document.getElementById("myDiv");
+    div.innerHTML = "Correctly replaced!";
+  </script>
+</body>
+</html>
