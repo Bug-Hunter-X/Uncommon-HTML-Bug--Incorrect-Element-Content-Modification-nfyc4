@@ -1,0 +1,3 @@
+This repository demonstrates a subtle bug in HTML related to element content modification.  The bug involves incorrectly attempting to change the content of an HTML element using textContent instead of the preferred method, innerHTML.
+
+The `bug.html` file showcases the incorrect implementation, which will lead to the element's content not being replaced as expected. The `bugSolution.html` provides the correct implementation. The difference is subtle but critical for proper behavior, especially when dealing with elements that may contain HTML structures.  This example highlights the importance of using the correct method for managing element content in HTML.
